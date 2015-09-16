@@ -1,0 +1,2 @@
+WinEvtLog: Application: INFORMATION(1): UltraVnc: (no user): no domain: BEAST.mydomain.local: 14/10/2013 20:36   Connection received from 192.168.2.3
+WinEvtLog: Application: INFORMATION(2): UltraVnc: (no user): no domain: BEAST.mydomain.local: 14/10/2013 20:35   Invalid attempt from client 192.168.2.3

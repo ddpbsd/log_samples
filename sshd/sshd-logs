@@ -1,0 +1,34 @@
+Sep  2 23:33:56 server sshd[22922]: Server listening on 0.0.0.0 port 22.
+Sep  2 23:33:56 server sshd[22922]: Server listening on :: port 22.
+Sep  2 23:34:01 server sshd[28174]: rexec line 76: Unsupported option KerberosAuthentication
+Sep  2 23:34:01 server sshd[28174]: rexec line 82: Unsupported option GSSAPIAuthentication
+Sep  2 23:34:01 server sshd[28174]: reprocess config line 76: Unsupported option KerberosAuthentication
+Sep  2 23:34:01 server sshd[28174]: reprocess config line 82: Unsupported option GSSAPIAuthentication
+2013-08-30T11:12:11.577303-04:00 arrakis sshd[1595]: Received signal 15; terminating.
+Aug 30 05:44:28 junction sshd[1538]: Did not receive identification string from 10.10.10.1
+Aug 30 10:22:56 junction sshd[25023]: User root from host.example.com not allowed because not listed in AllowUsers
+Aug 30 10:22:56 junction sshd[25023]: input_userauth_request: invalid user root [preauth]
+Aug 30 10:22:56 junction sshd[25023]: Received disconnect from 10.10.10.2: 11: Bye Bye [preauth]
+Aug 30 10:22:58 junction sshd[5751]: Invalid user sloboz from 10.10.10.2
+Aug 30 10:22:58 junction sshd[5751]: input_userauth_request: invalid user sloboz [preauth]
+Aug 30 10:22:58 junction sshd[5751]: Received disconnect from 10.10.10.2: 11: Bye Bye [preauth]
+Aug 30 11:00:01 ix sshd[31658]: Accepted publickey for user from 10.10.10.3 port 44207 ssh2: RSA d1:22:f1:90:34:aa:d3:4d:b3:ef:5g:87:ba:ce:60:f1
+Aug 30 11:00:01 ix sshd[25317]: Received disconnect from 10.10.10.3: 11: disconnected by user
+
+Nov 19 15:04:22 rosalita sshd[40232]: error: PAM: authentication error for illegal user alias from s514.nxs.nl
+Nov 19 15:07:32 rosalita sshd[40239]: error: PAM: authentication error for illegal user alias from c90678d3.static.spo.virtua.com.br
+Nov 19 15:10:20 rosalita sshd[40247]: error: PAM: authentication error for illegal user alias from 207-47-162-126.prna.static.sasknet.sk.ca
+Nov 19 15:13:46 rosalita sshd[40268]: error: PAM: authentication error for illegal user alias from 125-236-218-109.adsl.xtra.co.nz
+Nov 19 15:16:29 rosalita sshd[40275]: error: PAM: authentication error for illegal user alias from 200.93.147.114
+Nov 19 15:19:12 rosalita sshd[40279]: error: PAM: authentication error for illegal user alias from 62.225.15.82
+Nov 19 15:22:29 rosalita sshd[40298]: error: PAM: authentication error for illegal user alias from 121.33.199.39
+Nov 19 15:25:14 rosalita sshd[40305]: error: PAM: authentication error for illegal user alias from 130.red-80-37-213.staticip.rima-tde.net
+Nov 19 15:28:23 rosalita sshd[40309]: error: PAM: authentication error for illegal user alias from 70-46-140-187.orl.fdn.com
+Nov 19 15:31:17 rosalita sshd[40316]: error: PAM: authentication error for illegal user alias from gate-dialog-simet.jgora.dialog.net.pl
+Nov 19 15:34:18 rosalita sshd[40334]: error: PAM: authentication error for illegal user alias from 80.51.31.84
+Nov 19 15:37:23 rosalita sshd[40342]: error: PAM: authentication error for illegal user alias from 82.207.104.34
+Nov 19 15:40:20 rosalita sshd[40350]: error: PAM: authentication error for illegal user alias from 70-46-140-187.orl.fdn.com
+Nov 19 15:43:39 rosalita sshd[40354]: error: PAM: authentication error for illegal user alias from 200.20.187.222
+Nov 19 15:46:41 rosalita sshd[40374]: error: PAM: authentication error for illegal user amanda from 58.196.4.2
+Nov 19 15:49:31 rosalita sshd[40378]: error: PAM: authentication error for illegal user amanda from host116-164.dissent.birch.net
+Nov 19 15:55:47 rosalita sshd[40408]: error: PAM: authentication error for illegal user amanda from robert71.lnk.telstra.net

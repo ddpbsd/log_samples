@@ -1,0 +1,3 @@
+Mar 14 21:40:43 menger dhcpd[7088]: Both dynamic and static leases present for 10.0.0.4.
+Mar 14 08:36:33 junction dhcpd[18915]: DHCPREQUEST for 192.168.1.159 from 04:1e:63:af:23:c2 via sk0
+Mar 14 08:36:33 junction dhcpd[18915]: DHCPACK on 192.168.1.159 to 04:1e:63:af:23:c2 via sk0

@@ -1,0 +1,7 @@
+2013-09-03T10:08:27.565150-04:00 arrakis smtpd[16149]: smtp-in: New session 00000006cc10eba7 from host localhost [127.0.0.1]
+2013-09-03T10:08:27.565150-04:00 arrakis smtpd[16149]: smtp-in: New session 00000006cc10eba7 from host localhost [127.0.0.1]
+2013-09-03T10:08:27.598857-04:00 arrakis smtpd[16149]: smtp-in: Accepted message 1d8c2ff8 on session 00000006cc10eba7: from=<ossecm@example.com>, to=<user@localhost>, size=474, ndest=1, proto=SMTP
+2013-09-03T10:08:27.598857-04:00 arrakis smtpd[16149]: smtp-in: Accepted message 1d8c2ff8 on session 00000006cc10eba7: from=<ossecm@example.com>, to=<user@localhost>, size=474, ndest=1, proto=SMTP
+2013-09-03T10:08:27.599552-04:00 arrakis smtpd[16149]: smtp-in: Closing session 00000006cc10eba7
+2013-09-03T10:08:27.599552-04:00 arrakis smtpd[16149]: smtp-in: Closing session 00000006cc10eba7
+

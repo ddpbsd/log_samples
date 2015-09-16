@@ -1,0 +1,5 @@
+2013-09-03T10:00:34.064803-04:00 arrakis ntpd[30059]: peer 10.10.10.1 now invalid
+2013-09-03T10:05:53.158074-04:00 arrakis ntpd[30059]: peer 10.10.10.1 now valid
+2013-09-03T10:23:51.395954-04:00 arrakis ntpd[5271]: adjusting clock frequency by 0.193385 to 18.400837ppm
+Oct  7 14:58:33 ix ntpd[15989]: bad peer from pool pool.ntp.org (69.65.40.29)
+Oct  7 19:07:16 ix ntpd[19217]: bad peer 192.168.1.1 (192.168.1.1)

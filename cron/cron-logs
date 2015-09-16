@@ -1,0 +1,3 @@
+2011-03-08T21:00:01.577706-05:00 arrakis cron[8447]: (root) CMD (/usr/sbin/sendmail -L sm-msp-queue -Ac -q)
+2011-03-08T21:00:01.577749-05:00 arrakis cron[1963]: (root) CMD (/usr/bin/newsyslog)
+

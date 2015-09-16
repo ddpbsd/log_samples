@@ -1,0 +1,1 @@
+Oct  7 19:03:18 ix ddclient[20896]: WARNING:  cannot connect to checkip.dyndns.org:80 socket: IO::Socket::INET: Bad hostname 'checkip.dyndns.org' 

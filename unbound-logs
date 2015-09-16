@@ -1,0 +1,10 @@
+2013-09-03T10:00:57.610994-04:00 arrakis unbound: [5996:0] info: 127.0.0.1 www.ossec.net. A IN
+2013-09-03T10:01:10.559327-04:00 arrakis unbound: [5996:0] info: 127.0.0.1 www.google.com. A IN
+2013-09-03T10:01:32.215593-04:00 arrakis unbound: [5996:0] info: server stats for thread 0: 2 queries, 0 answers from cache, 2 recursions, 0 prefetch
+2013-09-03T10:01:32.215690-04:00 arrakis unbound: [5996:0] info: server stats for thread 0: requestlist max 0 avg 0 exceeded 0 jostled 0
+2013-09-03T10:01:32.215807-04:00 arrakis unbound: [5996:0] info: average recursion processing time 0.014286 sec
+2013-09-03T10:01:32.215906-04:00 arrakis unbound: [5996:0] info: histogram of recursion processing times
+2013-09-03T10:01:32.215979-04:00 arrakis unbound: [5996:0] info: [25%]=0 median[50%]=0 [75%]=0
+2013-09-03T10:01:32.216104-04:00 arrakis unbound: [5996:0] info: lower(secs) upper(secs) recursions
+2013-09-03T10:01:32.216181-04:00 arrakis unbound: [5996:0] info:    0.008192    0.016384 2
+
