@@ -1,0 +1,24 @@
+Apr 15 09:34:34 EDT: %ASA-session-5-106100: access-list acl_in permitted tcp inside/10.10.10.16(2241) -> outside/10.20.20.89(2000) hit-cnt 1 first hit [0x71a87d94, 0x0]
+Apr 15 2013 09:36:50: %ASA-4-106023: Deny tcp src dmz:10.10.10.30/63016 dst outside:10.20.20.8/53 by access-group "acl_dmz" [0xe3aab522, 0x0]
+Apr 24 2013 16:00:27 INT-FW01 : %ASA-6-106100: access-list inside permitted udp inside/172.29.2.3(1065) -> outside/204.61.216.57(53) hit-cnt 144 300-second interval [0xe982c7a4, 0x0]
+Apr 24 2013 16:00:28 INT-FW01 : %ASA-6-106100: access-list inside denied udp inside/172.29.2.101(1039) -> outside/192.203.230.10(53) hit-cnt 1 first hit [0xd820e56a, 0x0]
+Apr 29 2013 12:59:50: %ASA-6-302013: Built outbound TCP connection 89743274 for outside:10.20.40.43/443 (10.20.40.43/443) to inside:10.10.3.42/4952 (10.20.20.130/12834)
+Apr 29 2013 12:59:50: %ASA-6-302013: Built outbound TCP connection 89743276 for outside:10.10.30.1/80 (10.10.30.1/80) to inside:10.10.3.42/4953 (10.20.20.130/45392)
+Apr 29 2013 12:59:50: %ASA-6-302013: Built outbound TCP connection 89743277 for outside:10.20.30.17/80 (10.20.30.17/80) to inside:10.10.3.42/4954 (10.20.20.130/10879)
+Apr 29 2013 12:59:50: %ASA-6-302015: Built outbound UDP connection 89743275 for outside:10.30.40.222/53 (10.30.40.222/53) to inside:10.30.1.35/52925 (10.20.20.130/25882)
+Apr 29 2013 12:59:50: %ASA-6-302016: Teardown UDP connection 89743275 for outside:10.30.40.222/53 to inside:10.30.1.35/52925 duration 0:00:00 bytes 140
+Apr 29 2013 12:59:50: %ASA-6-305011: Built dynamic TCP translation from inside:10.10.3.42/4952 to outside:10.20.20.130/12834
+Apr 29 2013 12:59:50: %ASA-6-305011: Built dynamic TCP translation from inside:10.10.3.42/4953 to outside:10.20.20.130/45392
+Apr 29 2013 12:59:50: %ASA-6-305011: Built dynamic TCP translation from inside:10.10.3.42/4954 to outside:10.20.20.130/10879
+Apr 29 2013 12:59:50: %ASA-6-305011: Built dynamic UDP translation from inside:10.30.1.35/52925 to outside:10.20.20.130/25882
+Apr 29 2013 12:59:50: %ASA-6-305012: Teardown dynamic UDP translation from inside:10.30.1.24/63322 to outside:10.20.20.130/59309 duration 0:00:30
+Mar 29 2004 09:56:00: %PIX-6-106015: Deny TCP (no connection) from 192.168.0.2/2796 to 192.168.80.1/1719 flags SYN ACK on interface inside
+Nov 15 2010 13:49:40: %ASA-6-106015: Deny TCP (no connection) from 192.168.51.1/4080 to 192.168.50.6/43841 flags FIN PSH ACK  on interface inside
+Nov 15 2010 13:49:40: %ASA-6-302013: Built inbound TCP connection 2659826 for ipsec-prod:192.168.50.6/43841 (192.168.50.6/43841) to inside:192.168.51.1/4080 (192.168.51.1/4080)
+Nov 15 2010 13:49:40: %ASA-6-302014: Teardown TCP connection 2659826 for ipsec-prod:192.168.50.6/43841 to inside:192.168.51.1/4080 duration 0:00:00 bytes 5003 TCP Reset-O
+Nov 15 2010 13:50:40: %ASA-6-106015: Deny TCP (no connection) from 192.168.51.1/4080 to 192.168.50.6/43900 flags FIN PSH ACK  on interface inside
+Nov 15 2010 13:50:40: %ASA-6-302013: Built inbound TCP connection 2659932 for ipsec-prod:192.168.50.6/43900 (192.168.50.6/43900) to inside:192.168.51.1/4080 (192.168.51.1/4080)
+Nov 15 2010 13:50:40: %ASA-6-302014: Teardown TCP connection 2659932 for ipsec-prod:192.168.50.6/43900 to inside:192.168.51.1/4080 duration 0:00:00 bytes 5003 TCP Reset-O
+Nov 15 2010 13:52:20: %ASA-6-106015: Deny TCP (no connection) from 192.168.51.1/4080 to 192.168.50.6/44000 flags FIN PSH ACK  on interface inside
+Nov 15 2010 13:52:20: %ASA-6-302013: Built inbound TCP connection 2660100 for ipsec-prod:192.168.50.6/44000 (192.168.50.6/44000) to inside:192.168.51.1/4080 (192.168.51.1/4080)
+Nov 15 2010 13:52:20: %ASA-6-302014: Teardown TCP connection 2660100 for ipsec-prod:192.168.50.6/44000 to inside:192.168.51.1/4080 duration 0:00:00 bytes 5003 TCP Reset-O
